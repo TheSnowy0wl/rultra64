@@ -134,7 +134,7 @@
               
               systemd.services.sshd.after = [ "wg-quick-wg0.service" ];
 
-              users.users.gamemaster.openssh.authorizedKeys.keys = [ "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAILXMmPOX7MwDXgCfZnQJMVoaEhN1on5ggxaXkIGBOinx thesnowyowl@theowlnest" ];
+              users.users.gamemaster.openssh.authorizedKeys.keys = [ "<ADD-SSH-KEY-HERE>" ];
             
             })
 
